@@ -18,7 +18,7 @@ if setting == '2':
                 encrypted += letters[new_pos - 1]
             else:
                 encrypted += letters[new_pos-27]
-        else:                                                                                                  │
+        else:
             decrypted += word
     print(encrypted)
 else:
